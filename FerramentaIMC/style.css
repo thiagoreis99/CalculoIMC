@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #4a90e2;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Texto introdutório */
+div p {
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+    color: #555;
+}
+
+/* Estilos da Ferramenta */
+.ferramenta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Responsividade para Dispositivos Móveis */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.4em;
+    }
+
+    .ferramenta {
+        padding: 15px;
+    }
+
+    label, input[type="number"], button, #resultado {
+        font-size: 1em;
+    }
+}
