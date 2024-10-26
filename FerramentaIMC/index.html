@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ferramenta de cálculo do IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto de Extensão</h1>
+    </header>
+    <h2>Cálculo IMC</h2>
+    <div>
+        <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+        </p>
+        <p>
+            Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.
+        </p>
+
+    </div>
+    
+    <div class="ferramenta">
+        <h2>Cálculo do Índice de Massa Corporal (IMC)</h2>
+        <label for="peso">Peso (ex.: 69.2)</label><br>
+        <input type="number" id="peso" placeholder="Quilos">
+
+        <label for="altura">Altura (ex.: 1.70)</label><br>
+        <input type="number" id="altura" placeholder="Metros" step="0.01"><br>
+
+        <button onclick="calcularIMC()">Calcular IMC</button>
+
+
+    </div>
+</body>
+</html>
